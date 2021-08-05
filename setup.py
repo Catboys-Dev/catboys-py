@@ -18,10 +18,10 @@ if not version:
 
 
 setup(
-    name='catboys.py',
+    name='catboys',
     author='Kristian Kramer',
     author_email='kristian@catboys.com',
-    url='https://github.com/Catboys-Dev/catboys.py',
+    url='https://github.com/Catboys-Dev/catboys-py',
     version=version,
     packages=['catboys'],
     license='GNU v3',
