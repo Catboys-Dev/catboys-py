@@ -20,6 +20,7 @@ if not version:
 setup(
     name='catboys.py',
     author='Kristian Kramer',
+    author_email='kristian@catboys.com',
     url='https://github.com/Catboys-Dev/catboys.py',
     version=version,
     packages=['catboys'],
