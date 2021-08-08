@@ -30,4 +30,4 @@ NOTE: You must call them as functions
 
 
 ## Credit
-[Nekos.life](https://nekos.life) - base code for this module and inspiration
+[Nekos.life](https://nekos.life) - base code for this module and inspiration to create catboys.com
