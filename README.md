@@ -27,3 +27,7 @@ NOTE: You must call them as functions
 - img
 - catboy
 - eightball
+
+
+## Credit
+[Nekos.life](https://nekos.life) - base code for this module and inspiration
