@@ -26,6 +26,8 @@ print(catboys.img())
 NOTE: You must call them as functions
 - img
 - catboy
+- yaoi
+- response
 - eightball
 
 

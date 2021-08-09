@@ -15,12 +15,24 @@ def eightball():
 
 def img():
     try:
-        return http.get("/img")["url"]
+        return http.get("/img/random")["url"]
+    except Exception as e:
+        raise errors.NothingFound(noresponse)
+
+def catboy():
+    try:
+        return http.get("/img/catboy")["url"]
+    except Exception as e:
+        raise errors.NothingFound(noresponse)
+
+def yaoi():
+    try:
+        return http.get("/img/yaoi")["url"]
     except Exception as e:
         raise errors.NothingFound(noresponse)
 
 
-def catboy():
+def response():
     try:
         return http.get("/catboy")["response"]
     except Exception as e:
