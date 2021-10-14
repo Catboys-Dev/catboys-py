@@ -12,6 +12,12 @@ def eightball():
         "image": r["url"]
     })
 
+def dice():
+    r = http.get("/dice")
+    return dict.JsonDict({
+        "text": r["response"],
+        "image": r["url"]
+    })
 
 def img():
     try:

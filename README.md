@@ -29,6 +29,7 @@ NOTE: You must call them as functions
 - yaoi
 - response
 - eightball
+- dice
 
 
 ## Credit
