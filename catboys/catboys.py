@@ -37,6 +37,11 @@ def yaoi():
     except Exception as e:
         raise errors.NothingFound(noresponse)
 
+def baka():
+    try:
+        return http.get("/img/baka")["url"]
+    except Exception as e:
+        raise errors.NothingFound(noresponse)
 
 def response():
     try:
