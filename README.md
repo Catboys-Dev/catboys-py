@@ -25,8 +25,6 @@ print(catboys.img())
 # Endpoints
 NOTE: You must call them as functions
 - img
-- catboy
-- yaoi
 - baka
 - response
 - eightball

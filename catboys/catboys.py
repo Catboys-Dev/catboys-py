@@ -21,25 +21,13 @@ def dice():
 
 def img():
     try:
-        return http.get("/img/random")["url"]
-    except Exception as e:
-        raise errors.NothingFound(noresponse)
-
-def catboy():
-    try:
-        return http.get("/img/catboy")["url"]
-    except Exception as e:
-        raise errors.NothingFound(noresponse)
-
-def yaoi():
-    try:
-        return http.get("/img/yaoi")["url"]
+        return http.get("/img")["url"]
     except Exception as e:
         raise errors.NothingFound(noresponse)
 
 def baka():
     try:
-        return http.get("/img/baka")["url"]
+        return http.get("/baka")["url"]
     except Exception as e:
         raise errors.NothingFound(noresponse)
 
